@@ -1,0 +1,893 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Uni\Unity Hub\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/PC/flappy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51697
+Successfully changed project path to: C:/Users/PC/flappy
+C:/Users/PC/flappy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18256] Host "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 370485601 [EditorId] 370485601 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-URIRSAB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18256] Host "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 370485601 [EditorId] 370485601 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-URIRSAB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 53.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path D:/Uni/Unity Hub/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/flappy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.4601
+Initialize mono
+Mono path[0] = 'D:/Uni/Unity Hub/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Uni/Unity Hub/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Uni/Unity Hub/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Uni/Unity Hub/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Uni/Unity Hub/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010324 seconds.
+- Loaded All Assemblies, in  0.735 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 1230ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (283ms)
+				TypeCache.ScanAssembly (259ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.306 seconds
+Refreshing native plugins compatible for Editor in 7.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.376 seconds
+Domain Reload Profiling: 2679ms
+	BeginReloadAssembly (343ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (805ms)
+		LoadAssemblies (653ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (356ms)
+			TypeCache.Refresh (317ms)
+				TypeCache.ScanAssembly (293ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1052ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (887ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 7.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3531.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 5.913500 ms (FindLiveObjects: 0.246100 ms CreateObjectMapping: 0.247600 ms MarkObjects: 5.300100 ms  DeleteObjects: 0.118400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1535383.651273 seconds.
+  path: Assets/bird/birds-rigged-animated.zip
+  artifactKey: Guid(9a63eba849c22434295a1cf9fb2c23b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/birds-rigged-animated.zip using Guid(9a63eba849c22434295a1cf9fb2c23b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3292b474861566270ab9901949a9a04') in 0.019514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.731172 seconds.
+  path: Assets/bird/source
+  artifactKey: Guid(ee8ed84e8901415468226ff927466086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/source using Guid(ee8ed84e8901415468226ff927466086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632540f9436fe068e68760378a22fd22') in 0.000885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.998076 seconds.
+  path: Assets/bird/source/BIRDS.glb
+  artifactKey: Guid(32bc51bb25da2894091d7dabaac5c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/source/BIRDS.glb using Guid(32bc51bb25da2894091d7dabaac5c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca49674b38ca3da500e959d57f556589') in 0.001323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.184659 seconds.
+  path: Assets/bird/textures
+  artifactKey: Guid(f22a4c85a6cf5924fbf2dd66b7caf23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/textures using Guid(f22a4c85a6cf5924fbf2dd66b7caf23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530998177412e72958bb0a06cc1bf2d0') in 0.000863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.069590 seconds.
+  path: Assets/bird/textures/crow01_0.jpeg
+  artifactKey: Guid(e1b9d7f247c7441499ec3f72f7e7ef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/textures/crow01_0.jpeg using Guid(e1b9d7f247c7441499ec3f72f7e7ef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936d9fdf4c5e4e9eb9f082ffdd7a773c') in 0.160385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/bird/textures/pigeon_sheet_1.jpeg
+  artifactKey: Guid(dd1c45cd30f555649b3b0cc5d9bd5692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/textures/pigeon_sheet_1.jpeg using Guid(dd1c45cd30f555649b3b0cc5d9bd5692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd443add234e933f3091f95592fa5976a') in 0.049740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/bird/textures/seagull_2.jpeg
+  artifactKey: Guid(0e06aace8bb65b34ba3d0d62a61639fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/textures/seagull_2.jpeg using Guid(0e06aace8bb65b34ba3d0d62a61639fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b7f9daef122c04276bfe1d9303037d') in 0.043069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.696939 seconds.
+  path: Assets/bird/birds_rigged__animated.glb
+  artifactKey: Guid(a6c833439c1f0c3429f07e46ea0a2b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/birds_rigged__animated.glb using Guid(a6c833439c1f0c3429f07e46ea0a2b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0692613be5a198725c7e57683e503fdb') in 0.001867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 479.068020 seconds.
+  path: Assets/bird/bird.png
+  artifactKey: Guid(99c9107798bd91346966aaf0c6d2986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/bird.png using Guid(99c9107798bd91346966aaf0c6d2986d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2950f52d6ff786a496f05e52e4df336e') in 0.043933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/bird/column.png
+  artifactKey: Guid(ec92048cab89ca94face6faf083c4491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/column.png using Guid(ec92048cab89ca94face6faf083c4491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de05386b3e0ec56f3e4092827859b71') in 0.032046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/bird/Градиент.png
+  artifactKey: Guid(b1c9b5c167772a64eb59e3e511fbd0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/Градиент.png using Guid(b1c9b5c167772a64eb59e3e511fbd0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b3db23401d1c5398ccbcdfea964c12') in 0.029359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 251.656015 seconds.
+  path: Assets/scripts
+  artifactKey: Guid(34f5ff3b49e1fe84ca4e9aa15a75118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts using Guid(34f5ff3b49e1fe84ca4e9aa15a75118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9c0fd9e702083cba29ebd44fd870b5') in 0.000776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.787863 seconds.
+  path: Assets/scripts/PlayerControler.cs
+  artifactKey: Guid(837ab8ab908da8844b33078a545e74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/PlayerControler.cs using Guid(837ab8ab908da8844b33078a545e74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9be4bdcbe91d726ce3368826273fa7') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 78.701498 seconds.
+  path: Assets/scripts/PlayerControler.cs
+  artifactKey: Guid(837ab8ab908da8844b33078a545e74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/PlayerControler.cs using Guid(837ab8ab908da8844b33078a545e74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8be67c48298552be5c11cc96c192de6') in 0.000866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 232.316810 seconds.
+  path: Assets/scripts/PlayerControler.cs
+  artifactKey: Guid(837ab8ab908da8844b33078a545e74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/PlayerControler.cs using Guid(837ab8ab908da8844b33078a545e74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c7a6dbb8cd1417557f069f1df0b5ed') in 0.001031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.411828 seconds.
+  path: Assets/scripts/PlayerControler.cs
+  artifactKey: Guid(837ab8ab908da8844b33078a545e74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/PlayerControler.cs using Guid(837ab8ab908da8844b33078a545e74e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51055064123f01090f6e895cd79d4550') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 58.059309 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/citybits_texture.png
+  artifactKey: Guid(ba3f04e89909cfa4b9c57b87edef3d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/gltf/citybits_texture.png using Guid(ba3f04e89909cfa4b9c57b87edef3d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67db8ca1222533ab8751691d1398f48') in 0.030221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.589829 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_hatchback_wheel_front_right.obj
+  artifactKey: Guid(0cc680d9c3984754eabdb9986473dac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_hatchback_wheel_front_right.obj using Guid(0cc680d9c3984754eabdb9986473dac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd482d4cc8573b8c5bb10363e824b83a3') in 0.257167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_hatchback_wheel_rear_left.obj
+  artifactKey: Guid(88c559045bfbd3c42a96bad79062ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_hatchback_wheel_rear_left.obj using Guid(88c559045bfbd3c42a96bad79062ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14649da09a8f885c54d370a736b7130e') in 0.032260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan_wheel_front_left.obj
+  artifactKey: Guid(4febdd6f1fbf1784d8ee6fb0a3606947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan_wheel_front_left.obj using Guid(4febdd6f1fbf1784d8ee6fb0a3606947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e3291e7995eeb96099197179ee6ded') in 0.031300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan.obj
+  artifactKey: Guid(1c739cb2c51d1ae479a0553cfecea02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan.obj using Guid(1c739cb2c51d1ae479a0553cfecea02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97d5b2f27eed1830eecf8f4be632b26') in 0.030535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police.obj
+  artifactKey: Guid(a8602e4465ad0b24d83a0cb4f78b8674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police.obj using Guid(a8602e4465ad0b24d83a0cb4f78b8674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e914c498bacf6a74453866a49441a69a') in 0.035210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan_wheel_rear_right.obj
+  artifactKey: Guid(b80fe2570c8e77b41a032e221237e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan_wheel_rear_right.obj using Guid(b80fe2570c8e77b41a032e221237e146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aae44c6a5d36a4b7410d15dd2974d50') in 0.060867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police_wheel_rear_right.obj
+  artifactKey: Guid(5ac1354d90f3aac42b801800f452b422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police_wheel_rear_right.obj using Guid(5ac1354d90f3aac42b801800f452b422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbc0108747f2202655ab3b722ac810b') in 0.033604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan_wheel_rear_left.obj
+  artifactKey: Guid(8198ee690f02acc48973c145976face8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan_wheel_rear_left.obj using Guid(8198ee690f02acc48973c145976face8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f21a3c547a5898c1ae43f1b7282d550') in 0.032530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon_wheel_front_left.obj
+  artifactKey: Guid(476b61f73e3a6344f9493946d15c9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon_wheel_front_left.obj using Guid(476b61f73e3a6344f9493946d15c9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd116993688edc879382d7ed7cd671f0') in 0.032714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police_wheel_rear_left.obj
+  artifactKey: Guid(e0fd1626ad5d9514ebeaa7dd108c15a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police_wheel_rear_left.obj using Guid(e0fd1626ad5d9514ebeaa7dd108c15a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a44fe9e68ff7b418b387092cc29513') in 0.030530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police_wheel_front_left.obj
+  artifactKey: Guid(462e67f1945eac447a76f160724ef479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police_wheel_front_left.obj using Guid(462e67f1945eac447a76f160724ef479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97c2abbd226bcc6cc37863d3be41039') in 0.029978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_hatchback_wheel_rear_right.obj
+  artifactKey: Guid(9d5950b5e97d95d4fa7272ea4953f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_hatchback_wheel_rear_right.obj using Guid(9d5950b5e97d95d4fa7272ea4953f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6469357e472c67509623b683d2741764') in 0.031491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon.obj
+  artifactKey: Guid(059faa9600b8c4d4493768db5fde14de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon.obj using Guid(059faa9600b8c4d4493768db5fde14de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc4409d2ed4b7fc62191da8bce0ecec') in 0.034157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan_wheel_front_right.obj
+  artifactKey: Guid(abfe8de1568b18446891a0c192e079d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_sedan_wheel_front_right.obj using Guid(abfe8de1568b18446891a0c192e079d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62e9eda1c47d4da7fc20b102eece8d8') in 0.035308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police_wheel_front_right.obj
+  artifactKey: Guid(65aaa66831e48bc498a72f264d41efd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_police_wheel_front_right.obj using Guid(65aaa66831e48bc498a72f264d41efd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ac419e2acb4072fdd1ce8c7c6ffe11') in 0.031532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.773763 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon_wheel_front_right.obj
+  artifactKey: Guid(83919ea7c19de46429ba09fae27d2c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon_wheel_front_right.obj using Guid(83919ea7c19de46429ba09fae27d2c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fe487052f4bff0525efa3d179fdcb6') in 0.050038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi_wheel_front_right.obj
+  artifactKey: Guid(9f296978882f1b2479a770f2ab6cdcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi_wheel_front_right.obj using Guid(9f296978882f1b2479a770f2ab6cdcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc2a26309046244e346d4cb604fb939') in 0.056261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi_wheel_front_left.obj
+  artifactKey: Guid(e90ea80bcca2859429149065fd3ba426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi_wheel_front_left.obj using Guid(e90ea80bcca2859429149065fd3ba426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6dbf55811036aa30203901f29693628') in 0.053608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi.obj
+  artifactKey: Guid(bbd4e6a78bb4bf54dacde1924dba4a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi.obj using Guid(bbd4e6a78bb4bf54dacde1924dba4a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1976583be9cd0ee9ddf81e7c33605404') in 0.066738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon_wheel_rear_right.obj
+  artifactKey: Guid(fcce6570180d6ce47a3103f827b9e380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon_wheel_rear_right.obj using Guid(fcce6570180d6ce47a3103f827b9e380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb4a91a4f4937545b57630b8322a6f2') in 0.051394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi_wheel_rear_left.obj
+  artifactKey: Guid(5bf98290508a5494688cc16f273e808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi_wheel_rear_left.obj using Guid(5bf98290508a5494688cc16f273e808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64366d70e5476985b480a6cbabb3c2e2') in 0.032368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi_wheel_rear_right.obj
+  artifactKey: Guid(08834a7fcc7403a4084282f22380f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_taxi_wheel_rear_right.obj using Guid(08834a7fcc7403a4084282f22380f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740d7b938bc88a3c118ee4bf7dada683') in 0.029173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon_wheel_rear_left.obj
+  artifactKey: Guid(2934781dc7278494d9399c8324dc0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/car_stationwagon_wheel_rear_left.obj using Guid(2934781dc7278494d9399c8324dc0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bdc62d484f2ec6daa8634bfd4aac80') in 0.027837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_junction.obj
+  artifactKey: Guid(aa8bcdfda478a9d439d78f409397dc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_junction.obj using Guid(aa8bcdfda478a9d439d78f409397dc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70e8f9347e4e79e30816fe13c41e066') in 0.027962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/citybits_texture.png
+  artifactKey: Guid(aad28f68841fefa4cac1b38017b4bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/citybits_texture.png using Guid(aad28f68841fefa4cac1b38017b4bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd829aee5b2838ce756238160eff37b70') in 0.011620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trafficlight_A.obj
+  artifactKey: Guid(a8bca48ac2f7a824b81e392c204d8cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trafficlight_A.obj using Guid(a8bca48ac2f7a824b81e392c204d8cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89863b4ae37af2de606b75b5959fc490') in 0.028763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/streetlight.obj
+  artifactKey: Guid(1cbfaf9d1a4f62f459a32c666b6faee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/streetlight.obj using Guid(1cbfaf9d1a4f62f459a32c666b6faee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9090c814944bb646d29c646e91433c8b') in 0.028328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_corner_curved.obj
+  artifactKey: Guid(b41c3b7811b84de46a1f17b332e6c878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_corner_curved.obj using Guid(b41c3b7811b84de46a1f17b332e6c878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7b13f5cc5f5ac92b89b6bb99add976') in 0.029397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_straight_crossing.obj
+  artifactKey: Guid(a34e0b53e8e15444c912ff7fedac5853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_straight_crossing.obj using Guid(a34e0b53e8e15444c912ff7fedac5853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1232f69d6b4aef07019b2a6df7c80473') in 0.030947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trafficlight_C.obj
+  artifactKey: Guid(c14a04e4f6013aa408ecd72c1e2c96bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trafficlight_C.obj using Guid(c14a04e4f6013aa408ecd72c1e2c96bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc72b47cb362f67bb24ba10706e154a5') in 0.038972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_tsplit.obj
+  artifactKey: Guid(d0782368bf915ff47800332e9f1f902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_tsplit.obj using Guid(d0782368bf915ff47800332e9f1f902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea6db27da86b067d472a263a9df8f5d') in 0.028384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trash_A.obj
+  artifactKey: Guid(c5d37ee02f7a96d44aeb0a84b44eec17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trash_A.obj using Guid(c5d37ee02f7a96d44aeb0a84b44eec17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e79e21f407b26da42c98706c3fd7545') in 0.027606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_corner.obj
+  artifactKey: Guid(9d16c70dde340584bb1050ae30abe6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_corner.obj using Guid(9d16c70dde340584bb1050ae30abe6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dc606b998ac6f48dae73bbe5c28f5d') in 0.028758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/firehydrant.obj
+  artifactKey: Guid(37e72207ed185c34db4257a64b9d832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/firehydrant.obj using Guid(37e72207ed185c34db4257a64b9d832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6459ee8372620e007c90c91cbc46eb') in 0.029913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trash_B.obj
+  artifactKey: Guid(593dc998b14bd314e8ce55802f273c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trash_B.obj using Guid(593dc998b14bd314e8ce55802f273c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25886904dbf0e6b71c1e9a8db4fcef9') in 0.027160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/watertower.obj
+  artifactKey: Guid(9a54d7481df680246a452e2b20ac6225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/watertower.obj using Guid(9a54d7481df680246a452e2b20ac6225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d2c620b0f78aadfc33eff3effa6663') in 0.028474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_straight.obj
+  artifactKey: Guid(8e1b4a39e82ab6b4f8fbf06a443ac5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/road_straight.obj using Guid(8e1b4a39e82ab6b4f8fbf06a443ac5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9a0c9cca49da48fc1d5ad4a4ee420e') in 0.028256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/dumpster.obj
+  artifactKey: Guid(80d50d7d1a453a7449d5adebbf8bc6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/dumpster.obj using Guid(80d50d7d1a453a7449d5adebbf8bc6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06007277a57fe66d7b696c06eb9b9d77') in 0.029151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trafficlight_B.obj
+  artifactKey: Guid(253cad48962e22142a445d1f8b27a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raznoe/KayKit_City_Builder_Bits_1.0_FREE/Assets/obj/trafficlight_B.obj using Guid(253cad48962e22142a445d1f8b27a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2463c5c3165bdfc9a6b91dac0c737e9') in 0.030217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 4.560328 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.000876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 13.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.006 seconds
+Domain Reload Profiling: 1668ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (437ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1006ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3581.
+Memory consumption went from 117.7 MB to 117.7 MB.
+Total: 3.841500 ms (FindLiveObjects: 0.228900 ms CreateObjectMapping: 0.189700 ms MarkObjects: 3.359100 ms  DeleteObjects: 0.062200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 222.869529 seconds.
+  path: Assets/bird
+  artifactKey: Guid(968214183ccbb754a9199f29aec76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird using Guid(968214183ccbb754a9199f29aec76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7ae63511e086d72d5c219a5a9eb563') in 0.002039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.160252 seconds.
+  path: Assets/bird/nice bird
+  artifactKey: Guid(857d56592edefa6458dbc1147a3cc429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/nice bird using Guid(857d56592edefa6458dbc1147a3cc429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f07ed766e874350bdaad9840773ca0d') in 0.000483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.388804 seconds.
+  path: Assets/bird/nice bird/crow01_0.jpeg
+  artifactKey: Guid(2a9a7fac7dfc648419e1896d458c8ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/nice bird/crow01_0.jpeg using Guid(2a9a7fac7dfc648419e1896d458c8ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32980a453ddac251b6318cc184ab993') in 0.071340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/bird/nice bird/seagull_2.jpeg
+  artifactKey: Guid(04b184a3844d0774e9886d20bc1267a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/nice bird/seagull_2.jpeg using Guid(04b184a3844d0774e9886d20bc1267a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a3484d984706582790c517c4330ea3') in 0.025375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/bird/nice bird/pigeon_sheet_1.jpeg
+  artifactKey: Guid(cfdacad7b1c74a94894cc38ce72da711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/nice bird/pigeon_sheet_1.jpeg using Guid(cfdacad7b1c74a94894cc38ce72da711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875a727a7335a4a385c92bca8e2e573c') in 0.022417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.009088 seconds.
+  path: Assets/bird/nice bird/Materials
+  artifactKey: Guid(78ba96a43975c0d41930346297012ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/nice bird/Materials using Guid(78ba96a43975c0d41930346297012ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cc267a1e78ec17b66f50c95c1c742b') in 0.000799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048856 seconds.
+  path: Assets/bird/nice bird/Materials/seagull_2.mat
+  artifactKey: Guid(d2008013ed21f06468d32897f1ce3c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bird/nice bird/Materials/seagull_2.mat using Guid(d2008013ed21f06468d32897f1ce3c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9dce35da883c73bb90d098fe37e1c5') in 0.078784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.463 seconds
+Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.275 seconds
+Domain Reload Profiling: 1737ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1276ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3584.
+Memory consumption went from 117.7 MB to 117.7 MB.
+Total: 3.583000 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.399400 ms MarkObjects: 2.817300 ms  DeleteObjects: 0.081800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.173 seconds
+Domain Reload Profiling: 1631ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1173ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3587.
+Memory consumption went from 118.0 MB to 118.0 MB.
+Total: 2.763400 ms (FindLiveObjects: 0.235000 ms CreateObjectMapping: 0.172200 ms MarkObjects: 2.318200 ms  DeleteObjects: 0.037100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
